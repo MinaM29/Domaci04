@@ -1,0 +1,101 @@
+
+  *{box-sizing: border-box;
+  }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+}
+
+.hero-image{
+    background-image: url('top-fig.jpg');
+    height:500px;
+    width: 1024px;
+    background-color: grey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+h1{
+    margin-left: 48px;;
+    font-size: 48px;
+    color: #EAE0E0;
+    font-weight: 700;
+    position:absolute;
+    bottom: 36%;
+
+}
+.btn{
+    border: 1px solid black;
+    background-color: #FFCB12;
+    font-size: 16px;
+    padding: 12px 32px; 
+    position:absolute;
+    bottom: 18%;
+    left: 78%; 
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+h2{
+    margin-left: 48px;
+    margin-top: 64px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    color: #82665A;
+}
+p{
+    margin-left: 48px;
+    margin-bottom:100px;
+    font-size: 20px;
+}
+.wrapper{
+    width:1024px;
+    
+}
+.card{
+    display:inline-block;
+    width: 50%;
+    margin-top: 36px;
+    
+}
+.card-img{
+    width: 400px;
+    height:300px;
+    object-fit: cover;
+    margin-left: 48px;
+}
+
+
+.container{
+    background-color:#82665A;
+    width:1024px;
+    height:180px;
+    position:relative;
+
+}
+.list{
+    color:#EAE0E0;
+    font-style: italic;
+    font-size: 20px;
+}
+.ul-list{
+    display:inline-block;
+    margin-top: 48px;
+    margin-left:32px  
+}
+.copy{
+    font-size: 16px;
+    color: #EAE0E0;
+    position:absolute;
+    bottom: 12px;
+    left:30%;
+
+}
